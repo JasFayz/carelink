@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,CAAC;EACJ,WAAW,EAAO,IAAI;EACtB,gBAAgB,EAAE,OAAO;CAC5B",
+    "sources": [
+        "../scss/six-sc.scss"
+    ],
+    "names": [],
+    "file": "six-sc.css"
+}

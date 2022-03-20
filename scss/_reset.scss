@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+/*--- reset ---*/
+html { /*position:relative; min-height:100%;*/ font-size:10px; }
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,p,blockquote,hr,header,footer,nav,aside,section { margin:0; padding:0; }
+h1,h2,h3,h4,h5,h6 { font-weight:normal;	font-size:100%; }
+address,caption,cite,code,dfn,h1,h2,h3,h4,th,var { font-style:normal; font-weight:normal; }
+fieldset,img,abbr {	border:0; }
+img { vertical-align:top; }
+ol,ul { list-style:none; }
+table {	border-collapse:collapse; border-spacing:0;	margin:0 auto; }
+th,td {	margin:0; padding:0; }
+th,td { text-align:left; vertical-align:top; }
+caption,th { text-align:left; margin:auto; }
+object,embed { vertical-align:top; }
+legend { display:none; }
+header, footer, main, article, section, nav, aside {
+	display:block;
+}
+button {
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	appearance:none;
+	padding:0;
+	margin:0;
+	background-color:transparent;
+	border:none;
+	border-radius:0;
+	cursor:pointer;
+
+	&:focus {
+		outline:none;
+	}
+}
+hr {
+	border:none;
+	border-top: solid 1px #ccc;
+}
+
+* {
+	box-sizing:border-box;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+
+	&:before, &:after {
+		box-sizing:border-box;
+	}
+}
+
+a:link, a:focus, a:visited, a:hover {
+	color: $text;
+	text-decoration: none;
+	outline:none;
+}

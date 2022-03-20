@@ -1,0 +1,25 @@
+.six_sc {
+    padding-top     : 70px;
+    padding-bottom  : 28px;
+    background-color: #D7EFE8;
+
+    &-title {
+        margin-bottom: 70px;
+    }
+
+    & .list {
+        &__item {
+            margin-bottom: 64px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            & .__title {
+                margin-top   : 20px;
+                margin-bottom: 25px;
+                text-align   : center;
+            }
+        }
+    }
+}

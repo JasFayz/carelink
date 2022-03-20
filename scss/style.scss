@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+
+/* Color definition */
+$body-bg: #f5f3f1;
+$text   : #5a5858;
+
+
+@import './reset';
+
+$linearGradient: linear-gradient(#5abba1 0%, #aad936 71.5%, #aad936 71.5%, #cae50b 100%);
+
+/* content */
+body {
+	font-family           : noto-sans-cjk-jp, sans-serif;
+	font-weight           : 400;
+	font-style            : normal;
+	-webkit-font-smoothing: antialiased;
+	color                 : $text;
+	font-size             : 1.4rem;
+	line-height           : 2;
+	background-color      : $body-bg;
+}
+
+.container {
+	max-width: 375px;
+	margin   : 0 auto;
+	width    : 100%;
+	padding  : 0 20px;
+}
+
+#wrapper {
+	position  : relative;
+	width     : 100%;
+	max-width : 575px;
+	margin    : 0 auto;
+	box-shadow: 0 0 20px #e0dad3;
+}
+
+.w100 {
+	width : 100%;
+	height: auto;
+}
+
+.mw100 {
+	max-width: 100%;
+	height   : auto
+}
+
+@import './_header';
+@import './_intro';
+@import './_first-sc';
+@import './_second-sc';
+@import './_third-sc';
+@import './_fourth-sc';
+@import './_fifth-sc';
+@import './_six-sc';
+@import './_seven_sc';
+@import './_eight-sc';
+@import './_nine-sc';
+@import './_footer';

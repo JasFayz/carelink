@@ -1,0 +1,31 @@
+.header {
+    padding         : 12px 0;
+    background-color: #fff;
+    position        : absolute;
+    top             : 0;
+    left            : 0;
+    right           : 0;
+    z-index         : 1;
+
+    &__logo {
+        display: inline-block;
+    }
+
+    &__button {
+        width          : 115px;
+        height         : 25px;
+        border-radius  : 25rem;
+        background     : $linearGradient;
+        display        : flex;
+        align-items    : center;
+        
+        padding        : 6px 17px;
+    }
+
+    &__container {
+        display        : flex;
+        display        : flex;
+        justify-content: space-between;
+        align-items    : center;
+    }
+}

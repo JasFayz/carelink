@@ -1,0 +1,80 @@
+.first_sc {
+    & .__header {
+        position: relative;
+
+
+        &::before {
+            content         : '';
+            display         : block;
+            width           : 100%;
+            height          : 137px;
+            position        : absolute;
+            left            : 0;
+            top             : -75px;
+            background-image: url("data:image/svg+xml,%3Csvg id='Сгруппировать_266' data-name='Сгруппировать 266' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='375' height='137.698' viewBox='0 0 375 137.698'%3E%3Cdefs%3E%3CclipPath id='clip-path'%3E%3Crect id='Прямоугольник_169' data-name='Прямоугольник 169' width='375' height='137.698' fill='none'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg id='Сгруппировать_265' data-name='Сгруппировать 265' clip-path='url(%23clip-path)'%3E%3Cg id='Сгруппировать_264' data-name='Сгруппировать 264'%3E%3Cg id='Сгруппировать_263' data-name='Сгруппировать 263' clip-path='url(%23clip-path)'%3E%3Cimage id='Прямоугольник_167' data-name='Прямоугольник 167' width='375' height='138' transform='translate(0 -0.302)' xlink:href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXcAAACKCAYAAABRuwqNAAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAABd6ADAAQAAAABAAAAigAAAAAwDvHdAAAFJUlEQVR4Ae3b0U1DQRRDQUD0XyrfkJA82JRxPHTg8ZW1egrv1+3revNHgAABAimBj1QaYQgQIEDgJWDcHQIBAgSCAsY9WKpIBAgQMO5ugAABAkEB4x4sVSQCBAgYdzdAgACBoIBxD5YqEgECBIy7GyBAgEBQwLgHSxWJAAECxt0NECBAIChg3IOlikSAAAHj7gYIECAQFDDuwVJFIkCAgHF3AwQIEAgKGPdgqSIRIEDAuLsBAgQIBAWMe7BUkQgQIGDc3QABAgSCAsY9WKpIBAgQMO5ugAABAkEB4x4sVSQCBAgYdzdAgACBoIBxD5YqEgECBIy7GyBAgEBQwLgHSxWJAAECn/8EFwYCBAgQaAl4ubf6lIYAAQIvAePuEAgQIBAUMO7BUkUiQICAcXcDBAgQCAoY92CpIhEgQMC4uwECBAgEBYx7sFSRCBAgYNzdAAECBIICxj1YqkgECBDwH6pugAABAkEBL/dgqSIRIEDAuLsBAgQIBAWMe7BUkQgQIOCbuxsgQIBAUMDLPViqSAQIEDDuboAAAQJBAeMeLFUkAgQI+ObuBggQIBAU8HIPlioSAQIEjLsbIECAQFDAuAdLFYkAAQK+ubsBAgQIBAW83IOlikSAAAEvdzdAgACBoICXe7BUkQgQIODl7gYIECAQFPByD5YqEgECBIy7GyBAgEBQwGeZYKkiESBAwLi7AQIECAQFfJYJlioSAQIEvNzdAAECBIICxj1YqkgECBDwWcYNECBAICjg5R4sVSQCBAgYdzdAgACBoIBxD5YqEgECBHxzdwMECBAICni5B0sViQABAsbdDRAgQCAoYNyDpYpEgAAB4+4GCBAgEBQw7sFSRSJAgIBxdwMECBAIChj3YKkiESBAwLi7AQIECAQFzrg/g7lEIkCAwLSA/1Cdrl94AgSqAl7u1WblIkBgWsA39+n6hSdAoCrg5V5tVi4CBKYFvNyn6xeeAIGqgJd7tVm5CBCYFjDu0/ULT4BAVcBPIavNykWAwLSAl/t0/cITIFAVMO7VZuUiQGBawLhP1y88AQJVAeNebVYuAgSmBYz7dP3CEyBQFTDu1WblIkBgWuCM+zUtIDwBAgSCAl7uwVJFIkCAgHF3AwQIEAgKnHF/BHOJRIAAgWkBL/fp+oUnQKAq4OVebVYuAgSmBbzcp+sXngCBqoBxrzYrFwEC0wLGfbp+4QkQqAr45l5tVi4CBKYFjPt0/cITIFAVMO7VZuUiQGBawLhP1y88AQJVgTPuz2o4uQgQILAq4OW+2rzcBAikBYx7ul7hCBBYFTDuq83LTYBAWuCM+286oXAECBAYFDDug6WLTIBAX8BnmX7HEhIgMChwxt1PIQeLF5kAgbaAzzLtfqUjQGBUwLiPFi82AQJtAePe7lc6AgRGBYz7aPFiEyDQFjDu7X6lI0BgVOCM+300u9gECBDICpxx91PIbL2CESCwKuDlvtq83AQIpAV8c0/XKxwBAqsCXu6rzctNgEBawLin6xWOAIFVAeO+2rzcBAikBYx7ul7hCBBYFTjj/lgNLzcBAgSqAl7u1WblIkBgWuCM+21aQHgCBAgEBbzcg6WKRIAAAS93N0CAAIGggHEPlioSAQIEzrj7tYw7IECAQEzAyz1WqDgECBA4AsbdHRAgQCAocMb9J5hLJAIECEwLeLlP1y88AQJVAS/3arNyESAwLWDcp+sXngCBqsAZdz+FrLYrFwECswJe7rPVC06AQFngjPt3OaBsBAgQWBT4A6DFWawP9+JiAAAAAElFTkSuQmCC'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+
+        }
+
+        &::after {
+            content   : '';
+            display   : block;
+            width     : 100%;
+            height    : 60px;
+            position  : absolute;
+            bottom    : 0;
+            left      : 0;
+            right     : 0;
+            background: linear-gradient(to top, #D7EFE8, transparent);
+        }
+    }
+
+    & .__body {
+        background    : #D7EFE8;
+        padding-top   : 17px;
+        padding-bottom: 26px;
+        position      : relative;
+
+       
+
+        &-title {
+            margin-bottom: 35px;
+        }
+
+        &-subtitle {
+            margin-bottom: 29px;
+        }
+    }
+
+    &-content {
+        position: absolute;
+        left    : 20px;
+        right   : 20px;
+        bottom  : 88px;
+    }
+
+    &-image {}
+
+    & .smi {
+        &__list {
+            display  : flex;
+            flex-wrap: wrap;
+
+        }
+
+        &__item {
+            flex            : 0 0 calc(100% /3 - 10px);
+            max-width       : calc(100% /3);
+            display         : flex;
+            align-items     : center;
+            justify-content : center;
+            background-color: #fff;
+            margin-right    : 10px;
+            margin-bottom   : 10px;
+
+            &:nth-child(3n) {
+                margin-right: 0;
+            }
+
+        }
+    }
+}

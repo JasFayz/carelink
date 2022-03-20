@@ -1,0 +1,70 @@
+	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+								width="225.547" height="27.453" viewBox="0 0 225.547 27.453">
+								<defs>
+									<clipPath id="clip-path">
+										<rect id="Прямоугольник_119" data-name="Прямоугольник 119" width="23.547"
+											height="26.453" transform="translate(0 0)" fill="none" />
+									</clipPath>
+								</defs>
+								<g id="Сгруппировать_373" data-name="Сгруппировать 373"
+									transform="translate(-66.227 -8898.782)">
+									<text id="セラピスト様の安心の為に" transform="translate(200.773 8921.235)" fill="#595757"
+										font-size="18" font-family="YuGothicUI-Regular, Yu Gothic UI">
+										<tspan x="-90.721" y="0">セラピスト様の安心の為に</tspan>
+									</text>
+									<g id="Сгруппировать_203" data-name="Сгруппировать 203"
+										transform="translate(66.227 8898.782)">
+										<line id="Линия_11" data-name="Линия 11" y1="1.557" x2="3.233"
+											transform="translate(19.538 8.055)" fill="#fb7180" />
+										<g id="Сгруппировать_198" data-name="Сгруппировать 198">
+											<g id="Сгруппировать_197" data-name="Сгруппировать 197"
+												clip-path="url(#clip-path)">
+												<line id="Линия_12" data-name="Линия 12" y1="1.557" x2="3.233"
+													transform="translate(19.538 8.055)" fill="none" stroke="#fb7180"
+													stroke-linecap="round" stroke-miterlimit="10"
+													stroke-width="1.552" />
+											</g>
+										</g>
+										<line id="Линия_13" data-name="Линия 13" x1="2.241" y2="2.81"
+											transform="translate(16.797 3.374)" fill="#fb7180" />
+										<line id="Линия_14" data-name="Линия 14" x1="2.241" y2="2.81"
+											transform="translate(16.797 3.374)" fill="none" stroke="#fb7180"
+											stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.552" />
+										<path id="Контур_1097" data-name="Контур 1097" d="M12.845,4.276l.8-3.5Z"
+											fill="#fb7180" />
+										<g id="Сгруппировать_200" data-name="Сгруппировать 200">
+											<g id="Сгруппировать_199" data-name="Сгруппировать 199"
+												clip-path="url(#clip-path)">
+												<line id="Линия_15" data-name="Линия 15" x1="0.799" y2="3.499"
+													transform="translate(12.845 0.776)" fill="none" stroke="#fb7180"
+													stroke-linecap="round" stroke-miterlimit="10"
+													stroke-width="1.552" />
+											</g>
+										</g>
+										<line id="Линия_16" data-name="Линия 16" y1="2.81" x2="2.241"
+											transform="translate(16.797 3.374)" fill="#fb7180" />
+										<line id="Линия_17" data-name="Линия 17" y1="2.81" x2="2.241"
+											transform="translate(16.797 3.374)" fill="none" stroke="#fb7180"
+											stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.552" />
+										<g id="Сгруппировать_202" data-name="Сгруппировать 202">
+											<g id="Сгруппировать_201" data-name="Сгруппировать 201"
+												clip-path="url(#clip-path)">
+												<path id="Контур_1098" data-name="Контур 1098" d="M10.65,13.892Z"
+													fill="#fb7180" />
+												<path id="Контур_1099" data-name="Контур 1099"
+													d="M18.576,13.892A7.926,7.926,0,1,1,10.65,5.966a7.927,7.927,0,0,1,7.926,7.926"
+													fill="#fb7180" />
+												<rect id="Прямоугольник_121" data-name="Прямоугольник 121"
+													width="15.852" height="7.926" transform="translate(2.724 13.892)"
+													fill="#fb7180" />
+												<path id="Контур_1100" data-name="Контур 1100"
+													d="M19.065,26.453H1.736a1.735,1.735,0,1,1,0-3.471H19.065a1.735,1.735,0,0,1,0,3.471"
+													fill="#5abba1" />
+												<path id="Контур_1101" data-name="Контур 1101"
+													d="M9.447,16.436a1,1,0,0,0-1.182-.777A5.017,5.017,0,0,0,4.838,19.2a1,1,0,0,0,1.928.535c0-.013,0-.024,0-.037A3.027,3.027,0,0,1,8.831,17.57l-.005-.018a.988.988,0,0,0,.621-1.116"
+													fill="#fffaee" />
+											</g>
+										</g>
+									</g>
+								</g>
+							</svg>
