@@ -7,7 +7,7 @@
         top     : 96px;
         left    : 20px;
         width   : 178px;
-        
+
     }
 
     &__list {
@@ -76,8 +76,10 @@
             align-items    : center;
             padding        : 8px;
             padding-left   : 80px;
-            position       : relative;
-            box-shadow     : 2px 2px 6px rgba(0, 0, 0, 0.36);
+            padding-right  : 80px;
+
+            position  : relative;
+            box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.36);
 
 
             &::before {

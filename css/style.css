@@ -274,6 +274,7 @@ body {
           align-items: center;
   padding: 8px;
   padding-left: 80px;
+  padding-right: 80px;
   position: relative;
   -webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.36);
           box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.36);
@@ -711,6 +712,15 @@ body {
 .nine_sc-title {
   margin-bottom: 45px;
   text-align: center;
+}
+
+.nine_sc-label {
+  position: absolute;
+  width: 55%;
+  top: 50%;
+  right: 15px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 .nine_sc-button {
