@@ -25,5 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
         gap: 10
     });
     splide2.mount();
-    AOS.init();
+    AOS.init({
+        once: true
+    });
 });
