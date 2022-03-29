@@ -7,8 +7,32 @@
     margin-top: 30px;
     margin-bottom: 40px;
     padding: 35px 22px 28px 38px;
-    background: url("../images/second-sc__frame-border.png") no-repeat 0 0 /
-      cover;
+    // background: url("../images/second-sc__frame-border.png") no-repeat 0 0 /
+    //   cover;
+    border: 2px solid #595757;
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 2px;
+      left: 2px;
+      right: 2px;
+      bottom: 2px;
+      border: 2px solid #595757;
+    }
+    & .leftLeave {
+      position: absolute;
+      left: -13px;
+      bottom: 0;
+      background: #fffaee;
+    }
+    & .rightLeave {
+      position: absolute;
+      padding-top: 5px;
+      top: -2px;
+      right: -13px;
+      background: #fffaee;
+    }
   }
 
   &::before {
@@ -42,7 +66,7 @@
         }
       }
       & .__image {
-          text-align: center;
+        text-align: center;
       }
       & .__content {
         font-family: "Noto Sans JP";

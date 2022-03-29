@@ -7,7 +7,31 @@
     margin-bottom: 70px;
     padding-left: 50px;
     padding-right: 50px;
-    background: url("../images/six_sc-title-bg.png") no-repeat 0 90%;
+    position: relative;
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 26px;
+      height: 70px;
+      transform: translateY(-50%);
+      background: url("../images/six_sc-title-leftImg.svg") no-repeat 0 0 /
+        cover;
+    }
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 50%;
+      right: 0;
+      width: 32px;
+      height: 70px;
+      transform: translateY(-50%);
+      background: url("../images/six_sc-title-imgRight.svg") no-repeat 0 0 /
+        cover;
+    }
     & span {
       display: block;
       font-family: "Noto Sans JP";

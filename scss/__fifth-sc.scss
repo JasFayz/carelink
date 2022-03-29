@@ -30,30 +30,28 @@
     right: 0;
   }
   &-subtitle {
+    width: 60%;
+    font-family: "Noto Sans JP";
+    font-weight: normal;
     font-family: "Noto Sans JP";
     font-weight: normal;
     font-size: 14px;
     line-height: 25px;
     text-align: left;
     color: #5a5858;
-    text-shadow: 0 0 4px #fff;
-    position: relative;
+    text-shadow: 0px 0px 2px #ffffff, /* white */ 0 0px 4px #ffffff,
+      /* black */ -8px 0px 6px rgba(255, 255, 255, 0.9),
+      /* blue */ 8px 0px 6px rgba(255, 255, 255, 1),
+      /* blue */ -8px 0px 7px rgba(255, 255, 255, 1),
+      /* blue */ -8px -4px 6px rgba(255, 255, 255, 1),
+      /* blue */ -8px 4px 6px rgba(255, 255, 255, 1),
+      /* blue */ -8px -2px 6px rgba(255, 255, 255, 1),
+      /* blue */ -8px 2px 6px rgba(255, 255, 255, 1); /* blue */
     & span {
-        display: block;
+      display: block;
+      &:last-child {
+        text-align: right;
+      }
     }
-    & .shadow {
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 95px;
-      font-family: "Noto Sans JP";
-      font-weight: normal;
-      font-size: 14px;
-      line-height: 25px;
-      text-align: left;
-      color: #fff;
-      filter: blur(30px);
-      -webkit-filter: blur(30px);
-}
   }
 }
