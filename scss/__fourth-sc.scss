@@ -1,36 +1,63 @@
 .fourth_sc {
-    padding-top     : 88px;
-    padding-bottom  : 60px;
-    background-color: #FFFAEE;
-    position: relative;
-    &-title {
-        margin-top: 30px;
-        margin-bottom: 40px;
-    }
+  padding-top: 88px;
+  padding-bottom: 60px;
+  background-color: #fffaee;
+  position: relative;
+  &-title {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding: 35px 22px 28px 38px;
+    background: url("../images/second-sc__frame-border.png") no-repeat 0 0 /
+      cover;
+  }
 
-    &::before {
-        content   : '';
-        display   : block;
-        position  : absolute;
-        width     : 100%;
-        height    : 107px;
-        top       : 0;
-        left      : 0;
-        background: linear-gradient(to bottom, #D7EFE8, transparent);
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 107px;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to bottom, #d7efe8, transparent);
+  }
 
-    }
+  & .steps {
+    &__item {
+      padding-bottom: 60px;
 
-    & .steps {
-        &__item {
-            padding-bottom: 60px;
-
-            & .__title {
-                margin-bottom: 30px;
-            }
-
-            & .__image {
-                margin-bottom: 35px;
-            }
+      & .__title {
+        margin-bottom: 30px;
+        font-family: "Noto Sans JP";
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: left;
+        color: #215f87;
+        display: flex;
+        align-items: center;
+        & span {
+          display: inline-block;
+          margin-left: 7px;
         }
+      }
+      & .__image {
+          text-align: center;
+      }
+      & .__content {
+        font-family: "Noto Sans JP";
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 25px;
+        text-align: left;
+        color: #5a5858;
+        & span {
+          display: block;
+        }
+      }
+      & .__image {
+        margin-bottom: 35px;
+      }
     }
+  }
 }

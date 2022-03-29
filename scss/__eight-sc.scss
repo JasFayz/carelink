@@ -1,40 +1,82 @@
 .eight_sc {
-    background-color   : #D7EFE8;
-    // padding-bottom  : 75px;
-    position           : relative;
+  background-color: #d7efe8;
+  // padding-bottom  : 75px;
+  position: relative;
 
+  &-title {
+    text-align: center;
+    margin-bottom: 54px;
+    font-family: "Noto Sans JP";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #215f87;
+    padding-bottom: 15px;
+    // display: inline-block;
+    background: url("../images/seven_sc-title-bg.png") no-repeat 50% 90%;
+  }
 
+  & .list {
+    &__item {
+      border-radius: 10px;
+      border: 1px solid #707070;
+      margin-bottom: 20px;
+      background-color: #fffaee;
+      position: relative;
+      z-index: 1;
 
-    &-title {
-        position     : relative;
-        z-index      : 1;
-        text-align   : center;
-        margin-bottom: 50px;
-    }
+      &:last-child {
+        margin-bottom: 0;
+      }
 
-    & .list {
-        &__item {
-            border-radius   : 10px;
-            border          : 1px solid #707070;
-            margin-bottom   : 20px;
-            background-color: #FFFAEE;
-            position        : relative;
-            z-index         : 1;
+      & .__header {
+        padding: 8px;
+        border-bottom: 1px solid #707070;
+        display: block;
+        // flex-direction: column;
+        // align-items: flex-start;
+        padding-left: 30px;
+        position: relative;
+        font-family: "Noto Sans JP";
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: left;
+        color: #595757;
 
-            &:last-child {
-                margin-bottom: 0;
-            }
-
-            & .__header {
-                padding      : 8px;
-                border-bottom: 1px solid #707070;
-                display: flex;
-                align-items: center;
-            }
-
-            & .__body {
-                padding: 10px 22px 24px 9px;
-            }
+        &::before {
+          content: "Q.";
+          display: block;
+          position: absolute;
+          top: 8px;
+          left: 10px;
+         
         }
+      }
+      & .__body {
+        padding: 10px 22px 24px 9px;
+        padding-left: 30px;
+        position: relative;
+        &::before {
+          content: "A.";
+          display: block;
+          position: absolute;
+          top: 10px;
+          left: 10px;
+          font-family: "Noto Sans JP";
+          font-weight: normal;
+          font-size: 14px;
+          text-align: left;
+          color: #595757;
+        }
+
+        & ul {
+          padding-left: 1rem;
+          list-style: disc;
+          margin-left: 10px;
+        }
+      }
     }
+  }
 }

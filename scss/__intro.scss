@@ -1,104 +1,138 @@
 .intro {
-    // min-height : 100vh;
-    padding-top: 52px;
+  // min-height : 100vh;
+  padding-top: 52px;
+//   height: 450px;
+  &__label {
+    position: absolute;
+    top: 96px;
+    left: 30px;
+    width: 178px;
+    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+}
 
-    &__label {
+  &__list {
+    list-style: none;
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    bottom: 0;
+  }
+
+  &__item {
+    padding-left: 54px;
+    background-color: rgba($color: #4d7f9f, $alpha: 1);
+    margin-bottom: 20px;
+    border-radius: 25rem;
+    position: relative;
+    z-index: 1;
+    // height: 25px;
+    display: flex;
+    align-items: center;
+    font-family: "Noto Sans JP";
+    font-weight: normal;
+    font-size: 14px;
+    text-align: left;
+    color: #fff;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 45px;
+      height: 45px;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='45' height='45' viewBox='0 0 45 45'%3E%3Cdefs%3E%3ClinearGradient id='linear-gradient' x1='0.173' y1='0.106' x2='0.807' y2='1' gradientUnits='objectBoundingBox'%3E%3Cstop offset='0' stop-color='%2359bba3'/%3E%3Cstop offset='1' stop-color='%23b2db2b'/%3E%3C/linearGradient%3E%3CclipPath id='clip-path'%3E%3Cpath id='Контур_2' data-name='Контур 2' d='M22.494,0A22.5,22.5,0,1,0,44.988,22.5a22.752,22.752,0,0,0-.147-2.579,7,7,0,0,0-1.082-3,6.616,6.616,0,0,0-5.7-10.436,7.01,7.01,0,0,0-1.255-1.347A22.532,22.532,0,0,0,22.494,0Z' fill='url(%23linear-gradient)'/%3E%3C/clipPath%3E%3CclipPath id='clip-path-2'%3E%3Crect id='Прямоугольник_13' data-name='Прямоугольник 13' width='45' height='45' fill='none'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg id='Сгруппировать_18' data-name='Сгруппировать 18' transform='translate(-20 -290)'%3E%3Cg id='Сгруппировать_15' data-name='Сгруппировать 15' transform='translate(20 290)'%3E%3Cg id='Сгруппировать_14' data-name='Сгруппировать 14' clip-path='url(%23clip-path)'%3E%3Crect id='Прямоугольник_12' data-name='Прямоугольник 12' width='45' height='45' fill='url(%23linear-gradient)'/%3E%3C/g%3E%3C/g%3E%3Cg id='Сгруппировать_17' data-name='Сгруппировать 17' transform='translate(20 290)'%3E%3Cg id='Сгруппировать_16' data-name='Сгруппировать 16' clip-path='url(%23clip-path-2)'%3E%3Cpath id='Контур_3' data-name='Контур 3' d='M18.935,15.736l-4.821,5.945a.835.835,0,0,0,.091,1.147L22.544,30.3a.834.834,0,0,0,1.162-.048L39.92,13.118a.835.835,0,0,0-1.04-1.287L24.972,20.3A.834.834,0,0,1,23.9,20.12l-3.675-4.394a.834.834,0,0,0-1.288.01m0,0-4.821,5.945a.835.835,0,0,0,.091,1.147L22.544,30.3a.834.834,0,0,0,1.162-.048L39.92,13.118a.835.835,0,0,0-1.04-1.287L24.972,20.3A.834.834,0,0,1,23.9,20.12l-3.675-4.394a.834.834,0,0,0-1.288.01m3.558,24.432A17.668,17.668,0,1,1,33.73,8.867a1.214,1.214,0,0,1-1.546,1.873A15.241,15.241,0,1,0,37.729,22.5a15.547,15.547,0,0,0-.1-1.751,1.214,1.214,0,0,1,2.412-.277,17.866,17.866,0,0,1,.116,2.028A17.686,17.686,0,0,1,22.493,40.168' fill='%23fff'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+      transform: translateY(-50%);
+    }
+  }
+
+  &__header {
+    position: relative;
+
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      left: 0;
+      bottom: -1px;
+      width: 100%;
+      height: 117px;
+      background: linear-gradient(to top, #fffaee, transparent);
+    }
+  }
+
+  &__body {
+    padding-top: 40px;
+    background-color: #fffaee;
+
+    &-text {
+      margin-top: 22px;
+      margin-bottom: 60px;
+      font-family: "Noto Sans JP";
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 28px;
+      text-align: left;
+      color: #5a5858;
+    }
+
+    &-button {
+      border-radius: 25rem;
+      background: $linearGradient;
+      position: relative;
+      z-index: 1;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 8px;
+      padding-left: 80px;
+      padding-right: 80px;
+
+      position: relative;
+      box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.36);
+
+      &::before {
+        content: "";
+        display: block;
+        width: 11px;
+        height: 16px;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14.043' height='19.459' viewBox='0 0 14.043 19.459'%3E%3Cg id='Сгруппировать_374' data-name='Сгруппировать 374' transform='translate(-303.973 -18.953)'%3E%3Cline id='Линия_1' data-name='Линия 1' x2='11.246' y2='8.331' transform='translate(305.372 20.352)' fill='none' stroke='%23fff' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2'/%3E%3Cline id='Линия_2' data-name='Линия 2' x1='11.246' y2='8.331' transform='translate(305.372 28.683)' fill='none' stroke='%23fff' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2'/%3E%3C/g%3E%3C/svg%3E%0A");
+        background-repeat: no-repeat;
+        background-size: cover;
         position: absolute;
-        top     : 96px;
-        left    : 20px;
-        width   : 178px;
+        top: 50%;
+        right: 20px;
+        transform: translateY(-50%);
+      }
+      display: flex;
+      flex-direction: column;
 
+      & small {
+        display: block;
+        font-family: "Noto Sans JP";
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: left;
+        color: #fff;
+      }
+      & span {
+        display: block;
+        font-family: "Noto Sans JP";
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: left;
+        color: #fff;
+      }
     }
+  }
 
-    &__list {
-        list-style: none;
-        position  : absolute;
-        left      : 20px;
-        right     : 20px;
-        bottom    : 0;
-    }
-
-    &__item {
-        padding-left    : 54px;
-        background-color: rgba($color: #4D7F9F, $alpha: 1);
-        margin-bottom   : 20px;
-        border-radius   : 25rem;
-        position        : relative;
-        z-index         : 1;
-        height          : 25px;
-        display         : flex;
-        align-items     : center;
-
-        &::before {
-            content         : '';
-            position        : absolute;
-            top             : 50%;
-            left            : 0;
-            width           : 45px;
-            height          : 45px;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='45' height='45' viewBox='0 0 45 45'%3E%3Cdefs%3E%3ClinearGradient id='linear-gradient' x1='0.173' y1='0.106' x2='0.807' y2='1' gradientUnits='objectBoundingBox'%3E%3Cstop offset='0' stop-color='%2359bba3'/%3E%3Cstop offset='1' stop-color='%23b2db2b'/%3E%3C/linearGradient%3E%3CclipPath id='clip-path'%3E%3Cpath id='Контур_2' data-name='Контур 2' d='M22.494,0A22.5,22.5,0,1,0,44.988,22.5a22.752,22.752,0,0,0-.147-2.579,7,7,0,0,0-1.082-3,6.616,6.616,0,0,0-5.7-10.436,7.01,7.01,0,0,0-1.255-1.347A22.532,22.532,0,0,0,22.494,0Z' fill='url(%23linear-gradient)'/%3E%3C/clipPath%3E%3CclipPath id='clip-path-2'%3E%3Crect id='Прямоугольник_13' data-name='Прямоугольник 13' width='45' height='45' fill='none'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg id='Сгруппировать_18' data-name='Сгруппировать 18' transform='translate(-20 -290)'%3E%3Cg id='Сгруппировать_15' data-name='Сгруппировать 15' transform='translate(20 290)'%3E%3Cg id='Сгруппировать_14' data-name='Сгруппировать 14' clip-path='url(%23clip-path)'%3E%3Crect id='Прямоугольник_12' data-name='Прямоугольник 12' width='45' height='45' fill='url(%23linear-gradient)'/%3E%3C/g%3E%3C/g%3E%3Cg id='Сгруппировать_17' data-name='Сгруппировать 17' transform='translate(20 290)'%3E%3Cg id='Сгруппировать_16' data-name='Сгруппировать 16' clip-path='url(%23clip-path-2)'%3E%3Cpath id='Контур_3' data-name='Контур 3' d='M18.935,15.736l-4.821,5.945a.835.835,0,0,0,.091,1.147L22.544,30.3a.834.834,0,0,0,1.162-.048L39.92,13.118a.835.835,0,0,0-1.04-1.287L24.972,20.3A.834.834,0,0,1,23.9,20.12l-3.675-4.394a.834.834,0,0,0-1.288.01m0,0-4.821,5.945a.835.835,0,0,0,.091,1.147L22.544,30.3a.834.834,0,0,0,1.162-.048L39.92,13.118a.835.835,0,0,0-1.04-1.287L24.972,20.3A.834.834,0,0,1,23.9,20.12l-3.675-4.394a.834.834,0,0,0-1.288.01m3.558,24.432A17.668,17.668,0,1,1,33.73,8.867a1.214,1.214,0,0,1-1.546,1.873A15.241,15.241,0,1,0,37.729,22.5a15.547,15.547,0,0,0-.1-1.751,1.214,1.214,0,0,1,2.412-.277,17.866,17.866,0,0,1,.116,2.028A17.686,17.686,0,0,1,22.493,40.168' fill='%23fff'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
-            transform       : translateY(-50%);
-
-        }
-    }
-
-    &__header {
-        position: relative;
-
-        &::after {
-            content   : '';
-            display   : block;
-            position  : absolute;
-            left      : 0;
-            bottom    : -1px;
-            width     : 100%;
-            height    : 117px;
-            background: linear-gradient(to top, #FFFAEE, transparent);
-        }
-    }
-
-    &__body {
-        padding-top     : 40px;
-        background-color: #FFFAEE;
-
-        &-text {
-            margin-top   : 22px;
-            margin-bottom: 60px;
-        }
-
-        &-button {
-            border-radius  : 25rem;
-            background     : $linearGradient;
-            position       : relative;
-            z-index        : 1;
-            display        : flex;
-            justify-content: flex-start;
-            align-items    : center;
-            padding        : 8px;
-            padding-left   : 80px;
-            padding-right  : 80px;
-
-            position  : relative;
-            box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.36);
-
-
-            &::before {
-                content          : '';
-                display          : block;
-                width            : 11px;
-                height           : 16px;
-                background-image : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14.043' height='19.459' viewBox='0 0 14.043 19.459'%3E%3Cg id='Сгруппировать_374' data-name='Сгруппировать 374' transform='translate(-303.973 -18.953)'%3E%3Cline id='Линия_1' data-name='Линия 1' x2='11.246' y2='8.331' transform='translate(305.372 20.352)' fill='none' stroke='%23fff' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2'/%3E%3Cline id='Линия_2' data-name='Линия 2' x1='11.246' y2='8.331' transform='translate(305.372 28.683)' fill='none' stroke='%23fff' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2'/%3E%3C/g%3E%3C/svg%3E%0A");
-                background-repeat: no-repeat;
-                background-size  : cover;
-                position         : absolute;
-                top              : 50%;
-                right            : 20px;
-                transform        : translateY(-50%);
-            }
-        }
-    }
-
-    & .container {
-        position: relative;
-    }
+  & .container {
+    position: relative;
+  }
 }

@@ -1,31 +1,38 @@
 .header {
-    padding         : 12px 0;
-    background-color: #fff;
-    position        : absolute;
-    top             : 0;
-    left            : 0;
-    right           : 0;
-    z-index         : 1;
+  padding: 12px 0;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  // right: 0;
+  width: 100%;
+  z-index: 1;
 
-    &__logo {
-        display: inline-block;
-    }
+  &__logo {
+    display: inline-block;
+  }
 
-    &__button {
-        width          : 115px;
-        height         : 25px;
-        border-radius  : 25rem;
-        background     : $linearGradient;
-        display        : flex;
-        align-items    : center;
-        
-        padding        : 6px 17px;
-    }
+  &__button {
+    min-width: 115px;
+    height: 25px;
+    border-radius: 25rem;
+    background: $linearGradient;
+    display: flex;
+    align-items: center;
+    font-family: "Noto Sans JP";
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: left;
+    color: #fff;
+    padding: 6px 17px;
+   
+  }
 
-    &__container {
-        display        : flex;
-        display        : flex;
-        justify-content: space-between;
-        align-items    : center;
-    }
+  &__container {
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }

@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
         arrows: false,
         easing: 'linear',
         pagination: false,
-        speed: 2000,
+        speed: 400,
         autoplay: true,
         gap: 10
     });

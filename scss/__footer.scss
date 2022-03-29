@@ -1,18 +1,27 @@
 .footer {
-    background-color: #215F87;
+  background-color: #215f87;
 
-    & .container {
-        padding-top   : 46px;
-        padding-bottom: 90px;
-        padding-left  : 20px;
-        padding-right : 20px;
-    }
-
-    & .copyright {
-        background-color: #113045;
-        padding         : 10px;
-        justify-content : center;
-        display         : flex;
-        align-items     : center;
-    }
+  & .container {
+    padding-top: 46px;
+    padding-bottom: 90px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  & .link {
+    display: block;
+    font-family: "Noto Sans JP";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 14px;
+  }
+  & .copyright {
+    background-color: #113045;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
 }

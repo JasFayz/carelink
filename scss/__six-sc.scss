@@ -1,25 +1,58 @@
 .six_sc {
-    padding-top     : 70px;
-    padding-bottom  : 28px;
-    background-color: #D7EFE8;
+  padding-top: 70px;
+  padding-bottom: 28px;
+  background-color: #d7efe8;
 
-    &-title {
-        margin-bottom: 70px;
+  &-title {
+    margin-bottom: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background: url("../images/six_sc-title-bg.png") no-repeat 0 90%;
+    & span {
+      display: block;
+      font-family: "Noto Sans JP";
+      font-weight: normal;
+      font-size: 20px;
+      text-align: center;
+      color: #fb7180;
     }
+  }
 
-    & .list {
-        &__item {
-            margin-bottom: 64px;
+  & .list {
+    &__item {
+      margin-bottom: 64px;
 
-            &:last-child {
-                margin-bottom: 0;
-            }
+      &:last-child {
+        margin-bottom: 0;
+      }
 
-            & .__title {
-                margin-top   : 20px;
-                margin-bottom: 25px;
-                text-align   : center;
-            }
+      & .__title {
+        margin-top: 20px;
+        margin-bottom: 25px;
+        text-align: center;
+        font-family: "Noto Sans JP";
+        font-weight: normal;
+        font-size: 18px;
+        text-align: center;
+        color: #595757;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        & span {
+          margin-left: 4px;
         }
+      }
+      & .__content {
+        font-family: "Noto Sans JP";
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 25px;
+        text-align: left;
+        color: #5a5858;
+        & span {
+          display: block;
+        }
+      }
     }
+  }
 }
