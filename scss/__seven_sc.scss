@@ -43,8 +43,16 @@
   &-slider {
     & .splide__slide {
       & .__image {
+        width: 168px;
+        height: 168px;
         margin-bottom: 34px;
+        margin-left: auto;
+        margin-right: auto;
         text-align: center;
+        & img {
+          width: 100%;
+          height: auto;
+        }
       }
 
       & .__title {

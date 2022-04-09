@@ -29,8 +29,11 @@
     left: 0;
     right: 0;
   }
+  &-title {
+    margin-bottom: 22px;
+  }
   &-subtitle {
-    width: 60%;
+    // width: 60%;
     font-family: "Noto Sans JP";
     font-weight: normal;
     font-family: "Noto Sans JP";
@@ -50,7 +53,8 @@
     & span {
       display: block;
       &:last-child {
-        text-align: right;
+        // text-align: right;
+        padding-left: 130px;
       }
     }
   }

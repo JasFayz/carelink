@@ -6,13 +6,27 @@ $text: #5a5858;
 
 @import "./reset";
 
-$linearGradient: linear-gradient(
+$linearGradient: linear-gradient( to right,
   #5abba1 0%,
   #aad936 71.5%,
   #aad936 71.5%,
   #cae50b 100%
 );
 
+@font-face {
+  font-family: 'noto-sans-cjk-jp';
+  src        : local('noto-sans-cjk-jp'), local('noto-sans-cjk-jp'),
+      url('../fonts/NotoSansJP-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style : normal;
+}
+@font-face {
+  font-family: 'noto-sans-cjk-jp';
+  src        : local('noto-sans-cjk-jp'), local('noto-sans-cjk-jp'),
+      url('../fonts/NotoSansJP-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style : normal;
+}
 /* content */
 body {
   font-family: noto-sans-cjk-jp, sans-serif;
