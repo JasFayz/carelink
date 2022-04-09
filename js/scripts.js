@@ -8,7 +8,11 @@ document.addEventListener('DOMContentLoaded', function () {
         pagination: false,
         speed: 10000,
         autoplay: true,
-        gap: 10
+        gap: 10,
+        fixedWidth: '45%',
+        padding: {
+            right: "10%"
+        }
     });
     splide1.mount();
 
@@ -22,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
         pagination: false,
         speed: 400,
         autoplay: true,
-        gap: 10
+        gap: 10,
     });
     splide2.mount();
     AOS.init({
